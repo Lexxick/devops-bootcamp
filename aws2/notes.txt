@@ -1,0 +1,3 @@
+instance: i-xxxx
+bucket: devops-lexxick-7421
+arn: assumed-role/EC2-SSM-Role/i-xxxx
