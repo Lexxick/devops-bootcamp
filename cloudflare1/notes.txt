@@ -1,0 +1,14 @@
+Cloudflare nameserver {
+ NS ashton.ns.cloudflare.com
+ NS fay.ns.cloudflare.com
+}
+
+URL {
+ Github-Awam{
+  https://lexxick-github-io.pages.dev
+  https://syedazam.my/
+ }
+ Github-Private{
+  https://private.syedazam.my
+ }
+}
