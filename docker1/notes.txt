@@ -1,0 +1,27 @@
+Docker version 28.5.2, build ecc6942
+REPOSITORY                                                                    TAG       IMAGE ID       CREATED        SIZE
+516267217090.dkr.ecr.ap-southeast-1.amazonaws.com/devops-bootcamp/syed-azam   v1        a0ee22c8baa0   24 hours ago   104MB
+app                                                                           kecil     f37db417e08b   24 hours ago   104MB
+ghcr.io/infratify/arena-avatar                                                latest    4839ca66eedf   29 hours ago   201MB
+ghcr.io/infratify/arena-server                                                latest    4a0ee704ecd2   29 hours ago   195MB
+multi-stage                                                                   v1        456f9891ac40   6 days ago     93.6MB
+single-stage                                                                  v1        c749da387bb4   6 days ago     1.98GB
+infratify/web                                                                 v1        dfe8053043fc   6 days ago     92.5MB
+web                                                                           latest    dfe8053043fc   6 days ago     92.5MB
+web                                                                           v1        dfe8053043fc   6 days ago     92.5MB
+redis                                                                         latest    2838d5524559   2 weeks ago    206MB
+hashicorp/terraform-mcp-server                                                latest    67b4d3d39aa2   2 months ago   28.1MB
+devops-bootcamp/final-project-syedazam                                        latest    ce8a36f81e0b   5 months ago   92.5MB
+CONTAINER ID   IMAGE                                                                            COMMAND                  CREATED        STATUS                      PORTS     NAMES
+aed2ddfced97   ghcr.io/infratify/arena-avatar                                                   "docker-entrypoint.s…"   19 hours ago   Exited (0) 18 hours ago               avatar4.0
+e572c7f0c982   redis                                                                            "docker-entrypoint.s…"   19 hours ago   Exited (0) 18 hours ago               profile2
+eaff3c5449d7   ghcr.io/infratify/arena-avatar                                                   "docker-entrypoint.s…"   21 hours ago   Exited (0) 18 hours ago               avatar3.0
+0da0f446365e   ghcr.io/infratify/arena-avatar                                                   "docker-entrypoint.s…"   21 hours ago   Exited (0) 18 hours ago               avatar2.0
+3d83fa24622e   ghcr.io/infratify/arena-avatar                                                   "docker-entrypoint.s…"   21 hours ago   Exited (0) 18 hours ago               avatar
+973901a7f40e   ghcr.io/infratify/arena-server                                                   "docker-entrypoint.s…"   22 hours ago   Exited (137) 18 hours ago             arena-server
+7aa7b7ee8ae8   redis                                                                            "docker-entrypoint.s…"   22 hours ago   Exited (0) 18 hours ago               profile
+845691cd3ed0   516267217090.dkr.ecr.ap-southeast-1.amazonaws.com/devops-bootcamp/syed-azam:v1   "/docker-entrypoint.…"   23 hours ago   Exited (0) 18 hours ago               inspiring_engelbart
+5f993568c08a   multi-stage:v1                                                                   "/docker-entrypoint.…"   5 days ago     Exited (0) 5 days ago                 multi-stage
+d7775b782c19   single-stage:v1                                                                  "docker-entrypoint.s…"   5 days ago     Exited (137) 5 days ago               single-stage
+435b00b096d0   web:v1                                                                           "/docker-entrypoint.…"   6 days ago     Exited (0) 5 days ago                 web
+a899cb1bfbc6   hashicorp/terraform-mcp-server:latest                                            "/bin/terraform-mcp-…"   4 weeks ago    Exited (0) 23 hours ago               terraform-mcp-server
