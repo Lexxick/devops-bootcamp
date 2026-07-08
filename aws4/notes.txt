@@ -1,0 +1,12 @@
+[
+    [
+        "nat-0aa5ebc07582dd2aa",
+        "available"
+    ]
+]
+[
+    "3.0.211.230"
+]
+[
+    "516267217090.dkr.ecr.ap-southeast-1.amazonaws.com/devops-bootcamp/lexxick"
+]
