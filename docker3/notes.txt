@@ -1,0 +1,4 @@
+516267217090.dkr.ecr.ap-southeast-1.amazonaws.com/devops-bootcamp/syed-azam
+
+DRIVER    VOLUME NAME
+local     me
