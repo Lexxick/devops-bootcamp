@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Card - DevOps Bootcamp 2026</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0f172a;
+    font-family: system-ui, -apple-system, sans-serif;
+  }
+
+  .card {
+    background: linear-gradient(135deg, #6366f1, #a855f7, #ec4899);
+    color: #fff;
+    padding: 40px 48px;
+    border-radius: 20px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    opacity: 0;
+    animation: fadeIn 1s ease forwards;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: default;
+  }
+
+  .card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
+  }
+
+  .badge {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    padding: 6px 16px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    animation: pulse 2.5s ease-in-out infinite;
+  }
+
+  .name {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+
+  .cohort,
+  .role {
+    font-size: 14px;
+    opacity: 0.9;
+  }
+
+  .role {
+    margin-top: 4px;
+    font-weight: 600;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50%      { transform: scale(1.06); }
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <span class="badge">Student</span>
+    <div class="name">Lexxick</div>
+    <div class="cohort">DevOps Bootcamp 2026</div>
+    <div class="role">Devops Engineer</div>
+  </div>
+</body>
+</html>
